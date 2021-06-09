@@ -21,7 +21,7 @@ python run.py --train --attention // Default model (DCP-v2)
 python run.py --train // DCP-v1
 python run.py --train --attention --frontend=PointNet // Use PointNet for frontend instead of DGCNN (Ablation study 1)
 python run.py --train --attention --backend=MLP // Use multi-layer perceptron for backend instead of SVD (Ablation study 2)
-python run.py --train --attention --unseen // Train and Test for different categories (Ablation study 3)
+python run.py --train --attention --unseen // Train and Test for different categories
 python run.py --train --attention --embed_dims=<DIMENSION of FEATURE VECTOR> // Set dimension of feature vector different from 512. (Set 768 to get the results for ablation study 3)
 ```
 
